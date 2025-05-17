@@ -1,8 +1,8 @@
-﻿namespace Utils
+namespace Utils
 {
     public static class ConsoleHelper
     {
-        public static void EnterForContinued()
+        public static void ConsolePuase()
         {
             Console.WriteLine("Нажмите ВВОД для продолжения ...");
             Console.ReadLine();
